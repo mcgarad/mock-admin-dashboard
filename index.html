@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Control Center</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2><span class="material-symbols-outlined">widgets</span> Dashboard</h2>
+        <ul>
+            <li><span class="material-symbols-outlined">home</span> Home</li>
+            <li><span class="material-symbols-outlined">badge</span> Profile</li>
+            <li><span class="material-symbols-outlined">chat</span> Messages</li>
+            <li><span class="material-symbols-outlined">history</span> History</li>
+            <li><span class="material-symbols-outlined">task</span> Tasks</li>
+            <li><span class="material-symbols-outlined">groups</span> Communities</li>
+        </ul>
+        <ul>
+            <li><span class="material-symbols-outlined">settings</span> Settings</li>
+            <li><span class="material-symbols-outlined">help</span> Support</li>
+            <li><span class="material-symbols-outlined">privacy_tip</span> Privacy</li>
+        </ul>
+    </div>
+    <div class="header">
+        <div class="header-top">
+            <div id="searchBar">
+                <label for="searchTerm"><span class="material-symbols-outlined">search</span></label>
+                <input type="search" name="searchTerm" id="searchTerm">
+            </div>
+            <div>
+                <span class="material-symbols-outlined">notifications_active</span>
+                <img class="profileImage" id="userIcon" src="./assets/images/charlie.png" alt="user icon">
+                <p>Zack Jarrell</p>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div>
+                <img class="profileImage" src="./assets/images/charlie.png" alt="">
+                <div>
+                    <p class="greeting">Hi there,</p>
+                    <h3>Zack Jarrell (@mcgarad)</h3>
+                </div>
+            </div>
+            <div>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="project outer">
+            <h3>Your Projects</h3>
+            <div class="project inner">
+                <div class="projectCard">
+                    <div>
+                        <h3>Paint It Black</h3>
+                        <p>Three of eight doors painted so far. Almost all in matte. Considering adding a frilly design around the peep-hole...I know that wasn't in the original lyrics, but..come on, entirely black?!</p> 
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">device_hub</span>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div>
+                        <h3>Clux Capacitor</h3>
+                        <p>Like the one Emmett Brown made, but with ducks! With this, we can go back in time and catch an ancient woolly mallard. Woo-oo!</p> 
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">device_hub</span>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div>
+                        <h3>Coconut Telegraph</h3>
+                        <p>Imagine it now, a simple technology but you can learn about so much from its communicative abilities: The celebration, the stress, all in 25 words or less. This isn't something I can keep under my hat.</p> 
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">device_hub</span>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div>
+                        <h3>Jurrasic Bark</h3>
+                        <p>This project exists entirely for the purpose of making people ugly cry to thoughts of very good boys and the wailing of Connie Francis.</p> 
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">device_hub</span>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div>
+                        <h3>D&D5e Rulebook Interpreter</h3>
+                        <p>Believe it or not, this project will start more arguments than it settles. It's a fun tool, but honestly, just go with what your DM says and be cool.</p> 
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">device_hub</span>
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div>
+                        <h3>Troy & Abed Are A Crypto</h3>
+                        <p>I think this really has legs. Pierce is already backing it, which is a great start. Also, I've got ongoing talks with the Dean to start accepting it in the bookstore.</p> 
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">device_hub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="announcements outer">
+            <h3>Announcements</h3>
+            <div class="announcements inner">
+                <div>
+                    <h4>Site Maintenance</h4>
+                    <p>I wish you would run that backend script my friend.</p>
+                </div>
+                <div>
+                    <h4>Community Share Day</h4>
+                    <p>You could ally with all the ties that are here on the web.</p>
+                </div>
+                <div>
+                    <h4>Updated Privacy Policy</h4>
+                    <p>If you do not want to me to see you again, I would understand.</p>
+                </div>
+            </div>
+        </div>
+        <div class="trending outer">
+            <h3>Trending</h3>
+            <div class="trending inner">
+                <div>
+                    <img src="./assets/images/discostu.jpg" alt="user image">
+                    <div>
+                        <p class="trendingUser">@discothequestewart</p>
+                        <p class="trendingProject">Frink's Groove-o-matic</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/images/dan.jpg" alt="user image">
+                    <div>
+                        <p class="trendingUser">@getthisdanapuppers</p>
+                        <p class="trendingProject">Fartbook</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/images/ryan.png" alt="user image">
+                    <div>
+                        <p class="trendingUser">@chiefeo</p>
+                        <p class="trendingProject">WUPHF</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/images/bmo.jpg" alt="user image">
+                    <div>
+                        <p class="trendingUser">@sheriffBMO</p>
+                        <p class="trendingProject">BMO Friend Quest Magic Time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
